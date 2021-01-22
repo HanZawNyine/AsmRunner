@@ -1,6 +1,7 @@
 import os
 
 #asm
+os.system("sudo apt-get install nasm -y")
 os.system("sudo mv asm /usr/local/bin/ && sudo chmod +x /usr/local/bin/asm")
 os.system("sudo mv asm64 /usr/local/bin/ && sudo chmod +x /usr/local/bin/asm64")
 
