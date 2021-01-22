@@ -2,7 +2,7 @@ import os
 import sys
 
 aa = sys.argv[1]
-print("\033[1;34;40m Input : "+ aa+"\n")
+#print("\033[1;34;40m Input : "+ aa+"\n")
 
 li = list(aa.split("."))
 #print(*li)
